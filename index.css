@@ -29,7 +29,9 @@ body {
 .resume .resume-left {
 	width: 280px;
 	height: 100vh;
+    margin-bottom: ;
 	background: #0bb5f4;
+    
 }
 .resume .resume-left .resume-profile {
 	width: 100%;
@@ -91,5 +93,22 @@ body {
 .resume .resume-left .resume-skills ul li{
     color #b1eaff;
     justify-content: space-between;
+}
+.resume .resume-right{
+    position: relative;
+    z-index: 400;
+    width: 520px;
+    background: #fff;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+.resume .resume-right .bold{
+    color: #0bb5f4;
+}
+
+.resume .resume-right .resume-work ul,
+.resume .resume-right .resume-projects ul{
+    padding-left: 40px;
+    overflow: hidden;
 }
 
