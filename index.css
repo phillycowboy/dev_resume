@@ -113,4 +113,42 @@ body {
     padding-left: 40px;
     overflow: hidden;
 }
+.resume .resume-right ul li {
+    position: relative;
+}
+.resume .resume-right ul li .date{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.resume .resume-right ul li .job-summary,
+.resume .resume-right ul li .project-info{
+    margin-bottom: 20px;
+}
+.resume .resume-right ul li:last-child{
+    margin-bottom: 0;
+}
+
+.resume .resume-right .resume-work ul li:before,
+.resume .resume-right .resume-projects ul li:before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #0bb5f4;
+    background-color: #0bb5f4;
+}
+/* .resume .resume-right .resume-work ul li:after,
+.resume .resume-right .resume-projects ul li:after{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 2px;
+    height: 115px;
+    background: #0bb5f4;
+} */
 
