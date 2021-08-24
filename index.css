@@ -10,6 +10,7 @@ body {
 	font-size: 14px;
 	line-height: 22px;
 	color: #555555;
+    scroll-behavior: smooth;
 }
 .bold {
 	font-weight: 700;
@@ -28,8 +29,8 @@ body {
 }
 .resume .resume-left {
 	width: 280px;
-	height: 100vh;
-    margin-bottom: ;
+	/* height: 100vh; */
+    margin-bottom: 0;
 	background: #0bb5f4;
     
 }
@@ -40,6 +41,7 @@ body {
 .resume .resume-left .resume-profile img {
 	width: 50%;
 	height: 50%;
+    /* border-radius: 15px; */
 }
 .resume .resume-left .resume-content {
 	padding: 0 25px;
