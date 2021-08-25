@@ -59,7 +59,8 @@ body {
 	padding: 25px 0;
 	border-bottom: 2px solid #b1eaff;
 }
-.resume .resume-left .resume-item:last-child {
+.resume .resume-left .resume-item:last-child,
+.resume .resume-right .resume-item:last-child {
 	border-bottom: 0px;
 }
 .resume .resume-left ul li {
